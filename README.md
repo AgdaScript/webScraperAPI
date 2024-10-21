@@ -1,90 +1,96 @@
-<div align="center">
-  <a>
-    <img src="https://static.openfoodfacts.org/images/logos/off-logo-horizontal-light.svg" alt="Logo" width="200" height="80">
-  </a>
+<a>
+   <img src="img/openFoodFactsThumb.png" width=100%>
+</a>
 
-  <h3 align="center">Web Scraping using puppeteer and swagger</h3>
+<br><br>
+
+<div align=center> 
+<h1>About the Project</h1>
+
+The project extracts information about food products from [Open Food Facts](https://world.openfoodfacts.org), including the product name, description, quantity, brand, manufacturing location, and nutritional information, such as the Nutri-Score and its composition. This information is transformed into an API, which is documented using Swagger. The documentation allows for the use of custom filters to interact with the API more efficiently.
+
+<br><br>
+<h2>👩‍💻 Technologies:</h2> 
+<p>
+  <div  align="center"><br>
+  <img  align="center" alt="Agda-js" height="20" width="80" src="img/node.png" alt="NodeJs"/>
+  <img  align="center" alt="Agda-js" height="30" width="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/puppeteer/puppeteer-original.svg" alt="NodeJs"/>
+   <img align="center" alt="Agda-swagger" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/swagger/swagger-original.svg" />
+</div>
+</p>
 
 
-# Sobre o Projeto
+<br><br>
+<h2>🚀 Getting started:</h2> 
 
-O projeto tem como objetivo extrair informações dos produtos disponíveis no site [Open Food Facts](https://world.openfoodfacts.org/), utilizando tecnologias como Puppeteer para realizar a extração e o Swagger para documentação da API.
+<h3>🚨 Prerequisites</h3>
+Having Node.js learn more at <a href="https://nodejs.org">nodejs.org</a>
+<br>
+Have Git installed learn more at<a href="https://git-scm.com">git-scm.com</a>
 
+<h3>🔧 Installation</h3>
 
-# Tecnologias Usadas
-* <img src="img/node.png" alt="Node" width="100" height="30">
-* <img src="img/Puppeteer.png" alt="Puppeteer" width="70" height="70">
-* <img src="img/Swagger-logo.png" alt="Swagger" width="100" height="100">
-* <img src="img/express.png" alt="Express" width="100" height="30">
-
-# Começando
-
-## Pré Requisitos
-
-Ter o Node.js saiba mais em https://nodejs.org
-Ter o Git instalado saiba mais em https://git-scm.com
-
-## Instalação
-
-1. Clone o repositorio
+1. Clone the repository
 ```sh
    git clone https://github.com/agdaLopes/puppeteerswaggerapi.git
 ```
 
-2. Instale o Express:
+2. Install Express:
 ```sh
    npm install express
 ```
 
-3. Instale o Puppeter:
+3. Install Puppeter:
 ```sh
    npm install puppeter
 ```
 
-4. Instale o Swagger UI Express:
+4. Install Swagger UI Express:
 ```sh
    npm install swagger-ui-express
 ```
 
-5. Instale o YAMLjs:
+5. Install YAMLjs:
 ```sh
    npm install yamljs
 ```
 
-6. Instale o body-parser(para processar solicitações POST):
+6. Install body-parser (to process POST requests):
 ```sh
    npm install body-parser
 ```
 
-7. Instale o Swagger-jsdoc:
+7. Install Swagger-jsdoc:
 ```sh
    npm install swagger-jsdoc
 ```
 
-## Como Rodar o Projeto
+<h3>✅how to run the project?</h3>
 
 ```sh
    node puppeteerswagger.js
 ```
 
-## API
 
-### Acessar o Swagger UI
+<h3>⚙️API</h3>
+
+1. Access the Swagger UI
 ```sh
    http://localhost:8080/api-docs/
 ```
 
-### Acessar a lista de produtos
+2. Access the product list
 ```sh
    localhost:8080/products
 ```
 
-### Filtar produtos
+3. Filter products
 ```sh
    localhost:8080/products?nutrition=A&nova=1
 ```
 
-### Acessar o produto atravez do ID
+4. Access the product through ID
 ```sh
    localhost:8080/products/3155250349793
 ```
+</div>
